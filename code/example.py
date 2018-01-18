@@ -17,5 +17,6 @@ def main():
     print("%s + %s = %s" %(a, b, c))
     print("Done!")
 
+# below will only happen if you run the code outside of an interpeter aka not being "imported" 
 if __name__ == "__main__":
     main()
