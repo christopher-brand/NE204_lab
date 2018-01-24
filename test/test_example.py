@@ -3,6 +3,7 @@ from __future__ import absolute_import
 from code.example import add
 
 from nose.tools import assert_raises
+from  nose.tools import assert_almost_equal
 
 def test_add_works():
     assert add(2, 2) == 4
@@ -14,3 +15,8 @@ def test_add_bad_inputs():
     a = 1
     b = "I'm a string"
     assert_raises(TypeError, add, a, b)
+
+"""
+def test_floatingErr():
+	assert_almost_equal(function1, fucntion2)
+"""
